@@ -1,0 +1,14 @@
+home-path: ..
+
+spring:
+  config:
+    name: config-client
+    location: ${home-path}/config/application.yml
+  cloud:
+    config:
+      uri: http://localhost:7001/
+server:
+  port: 7002
+
+
+
